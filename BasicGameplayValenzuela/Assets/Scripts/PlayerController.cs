@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         //no fun
         if (transform.position.x < -xRange)
         {
-            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
         if ( transform.position.x > xRange)
         {
